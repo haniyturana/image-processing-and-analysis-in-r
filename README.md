@@ -1,12 +1,24 @@
 # Image Processing and Analysis in R
 
-This repository contains an R-based image analysis project using `magick` and `imager`.
+A clean, professional R project for structured image processing using the `magick` and `imager` packages.
 
-## Structure
+## Project overview
+
+This repository demonstrates a structured workflow for image analysis in R, including:
+
+- baseline image loading
+- grayscale conversion
+- edge detection
+- image transformation
+- segmentation
+- denoising
+- morphology operations
+
+## Repository structure
 
 - `image_analysis.R` — main analysis script
 - `images/original/` — baseline input images
-- `images/noisy/` — noisy input images for denoising experiments
+- `images/noisy/` — noisy image examples for denoising tests
 - `outputs/`
   - `edge-detection/` — edge detection results
   - `transformations/` — resized, rotated, filtered, sharpened, and other image transformations
@@ -14,9 +26,15 @@ This repository contains an R-based image analysis project using `magick` and `i
   - `denoising/` — denoising results
   - `morphology/` — morphological operations results
 
+## How to use
+
+1. Place input images in `images/original/`.
+2. Optionally place noisy images in `images/noisy/`.
+3. Run `image_analysis.R` in R or RStudio.
+4. Review generated outputs in the `outputs/` folders.
 
 ## Notes
 
-- Use baseline images from `images/original/` as input.
-- Generate derived results into `outputs/` using `image_analysis.R`.
-- Keep only source images in `images/original/` for a clean project structure.
+- The repository is designed for reproducible image analysis in R.
+- Only baseline source images are stored in `images/original/`.
+- Processed images are stored under `outputs/` to keep the project organized.
