@@ -13,7 +13,7 @@ This repository contains an R-based image analysis project using `magick` and `i
   - `segmentation/` — segmentation results
   - `denoising/` — denoising results
   - `morphology/` — morphological operations results
-- `report/` — final report PDF
+
 
 ## Notes
 
