@@ -33,8 +33,18 @@ This repository demonstrates a structured workflow for image analysis in R, incl
 3. Run `image_analysis.R` in R or RStudio.
 4. Review generated outputs in the `outputs/` folders.
 
+## Before and after
+
+Output files are generated automatically from the original images so the repository stores only the source inputs and the analysis script. Examples of generated results include:
+
+- `outputs/edge-detection/` — detected edges from the original images
+- `outputs/transformations/` — resized, sharpened, charcoal-filtered, and equalized versions
+- `outputs/segmentation/` — segmented and fuzzy cutout versions
+- `outputs/denoising/` — cleaned versions of noisy images
+
 ## Notes
 
 - The repository is designed for reproducible image analysis in R.
 - Only baseline source images are stored in `images/original/`.
 - Processed images are stored under `outputs/` to keep the project organized.
+- Use images you own or public-domain / free-license images for input data.
